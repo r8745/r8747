@@ -1,0 +1,368 @@
+body{
+    /*background-color:black;*/
+}
+p{
+    font-size: 2.5vw;
+}
+h1{
+    letter-spacing: 4px;
+    line-height: 13vw;
+}
+h2{
+    font-size: 1.5vw;
+}
+h5{
+    font-size: 1.5vw;
+    color: #E27A4D;
+}
+#contactButton{
+    width: 20vw;
+}
+#contactButton a h2{
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+}
+
+#menuToggle{
+    margin-left: 92%;
+    padding: 2% 1.5% 1.5% 1.5%;
+}
+#menuToggle span{
+  display: block;
+  margin-bottom: 5px;
+}
+#menuToggle input{
+  top: -7px;
+  left: 0px;
+}
+#menu{
+  margin: -110px 0% 0% -14%;
+}
+
+#navSelectorHome{opacity: 0;}
+#navSelectorAnimation{opacity: 0;}
+#navSelectorPhotography{opacity: 0;}
+.navInstaLogo{
+    background-size: 3vw 3vw;
+    width: 3vw;
+    height: 3vw;
+}
+.navLinkedLogo{
+    background-size: 3vw 3vw;
+    width: 3vw;
+    height: 3vw;
+    margin-top: 9vw;
+}
+
+.backgroundHeader{
+    margin-top: 8%;
+    margin-left: 25%;
+}
+.backgroundHeaderVideo{
+    margin-top: 23%;
+    margin-left: 40%;
+}
+.backgroundHeaderAnimation{
+    margin-top: 23%;
+    margin-left: 28%;
+}
+.backgroundHeaderPhotography{
+    margin-top: 23%;
+    margin-left: 20%;
+}
+
+.arrow{
+    margin-top: 47%;
+}
+.arrow2{
+    margin-top: 47%;
+}
+#myWorkMy{
+    margin-top: 51vw;
+}
+#myWorkWork{
+    margin-top: 55vw;
+}
+
+/*Media Categorieën*/
+.mediaCategorieContainer{
+    width: 100%;
+    margin-top: 25vw;
+}
+.posterImgTextVideo h1{
+    font-size: 9vw;
+    position: absolute;
+    margin-left: 32.5%;
+    margin-top: 22%;
+
+}
+.posterImgTextPhoto h1{
+    font-size: 9vw;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 22%;
+
+}
+.posterImgTextAnimation h1{
+    font-size: 9vw;
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 22%;
+}
+
+.embed-containerLeft{
+margin-top: 1vw;
+width: 95%;
+}
+.embed-containerRight{
+margin-top: 1vw;
+width: 95%;
+}
+
+.gifLinks{
+    width: 95%;
+    margin-left: 2.5vw;
+}
+.gifRechts{
+    width: 95%;
+    margin-right: 2.5vw;
+}
+.fotoLinksPortret{
+    float: left;
+    margin-left: 3vw;
+}
+.categorieTekstDiv{
+    width: 85%;
+    margin-top: 9vw;
+    margin-left: 7vw;
+}
+.categorieTekstDivHome{
+    width: 85%;
+    margin-left: 7vw;
+}
+.categorieTekstDivHome a{
+    font-size: 2.5vw;
+}
+.categorieTekstDiv a{
+    font-size: 1.5vw;
+}
+.categorieTekstHeader{
+    font-size: 3.5vw;
+    font-family: "Keep Calm Regular";
+}
+.categorieTekstDivider{
+    height: 0.2vw;
+}
+
+.brand{
+    border: solid 0.5vw #E27A4D;
+}
+
+.sectieDivider{
+    margin: 30vw auto 30vw auto;
+    width: 70%;
+    height: 0.2vw;
+}
+.sectieDivider2{
+    margin: 2vw auto 0vw auto;
+    width: 83%;
+    height: 0.2vw;
+}
+.sectieDivider3{
+    margin: 14vw auto 25vw auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+
+#aboutContainer{
+        margin-left: -7vw;
+}
+#aboutTekstDiv{
+    width: 55%;
+}
+
+#contactTekst{
+    margin-bottom: 20vw;
+}
+#contactTekst h3{
+    font-size: 6vw;
+}
+#contactGegevens{
+    font-size: 3vw;
+    line-height: 14vw;
+}
+
+.socialLogo img{
+    width: 6%; 
+    margin: 5vw 1.2vw 0vw 1.2vw;
+}
+
+.footerInfo{
+    font-size: 1.5vw;
+    color: #28324C;
+    font-weight: bold;
+    margin: 0vw 6.7vw 1.5vw 6.7vw;
+}
+.goToTopButton{
+    margin-top: 20vw;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width: 600px){
+body{
+        /*background-color: blue;*/
+    }
+p{
+    font-size: 3vw;
+}   
+h1{
+    font-size: 9vw;
+    letter-spacing: 3px;
+    z-index: 0;
+}
+h2{
+        font-size: 3vw;
+  }
+h5{
+    font-size: 4vw;
+    color: #E27A4D;
+}
+    
+#Home{
+    margin-bottom: 675px;
+}
+#contactButton{
+margin: 8.5% 0% 0% 8%;
+width: 20vw;
+border: solid 0.3vw white;
+transition: 0.5s;
+}
+#contactButton h2{
+font-size: 1.5vw;
+      line-height: 230%;  
+}
+
+#menuToggle{
+    margin-top: 6%;
+    margin-left: 81%;
+    padding: 3.9% 3% 3% 3%;
+}
+#menuToggle input{
+  width: 40px;
+  height: 40px;
+  top: 13px;
+  left: 7px;
+}
+#menu{
+  width: 38%;
+  margin: -110px 0% 0% -27%;
+}
+#menu li{  
+    margin: 1vw 0vw 10vw 0vw;
+}
+
+.backgroundHeader{
+    margin-top: 62%;
+    margin-left: 18%;
+}
+.backgroundHeaderVideo{
+    margin-top: 24%;
+    margin-left: 35%;
+    z-index: 0;
+}
+.backgroundHeaderAnimation{
+    margin-left: 20.5%;
+    margin-top: 24%;
+}
+.backgroundHeaderPhotography{
+    margin-top: 25%;
+    margin-left: 9%;
+}
+
+.navInstaLogo{
+    background-size: 7vw 7vw;
+    width: 7vw;
+    height: 7vw;
+}
+.navLinkedLogo{
+    background-size: 7vw 7vw;
+    width: 7vw;
+    height: 7vw;
+    margin-top: 16.5vw;
+}
+    
+.arrow{
+    width: 30vw;
+    height: 10vw;
+    margin-top: 152vw;
+}
+.arrow2{
+    display: none;
+}
+#myWorkMy{
+   display: none;
+}
+#myWorkWork{
+    display: none;
+}
+.hireMeButtonOj{
+    width: 35%;
+}
+
+#videoBackgroundIndex{
+    display: none;
+}
+#videoBackground{
+    z-index: -1;    
+}
+#videoBackgroundMobile{
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+ 
+.mediaCategorieContainer{
+    margin-top: 20vw;
+    margin-bottom: 25vw;
+    float: left;
+}
+.sectieDivider{
+    margin: 35vw auto 35vw auto;
+    width: 70%;
+    height: 0.2vw;
+}
+.sectieDivider3{
+    margin: 14vw auto 40vw auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+.brand{
+    width: 10vw;
+    height: 10vw;
+    margin: 6vw 3vw 0vw 3vw;
+}
+    
+.goToTopButton{
+    display: inline-block;
+    margin: 20vw 0vw 20vw 0vw;
+    width: 25%;
+    border: solid 0.2vw #E27A4D;
+    transition: 0.5s;
+}
+.categorieTekstDiv a{
+font-size: 3vw;
+}
+.categorieTekstDivHome a{
+    font-size: 2.5vw;
+}
+.footerInfo{
+    font-size: 2vw;
+}
+}
